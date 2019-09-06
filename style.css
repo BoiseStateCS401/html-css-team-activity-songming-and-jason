@@ -7,7 +7,8 @@ body {
 }
 
 h1,h2,h3 {
-	font-family: Arial, Helvetica, sans-serif
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
 }
 
 h1 {
@@ -24,4 +25,49 @@ h3 {
 
 li {
 	color: orange;
+	padding: 15px;
 }
+
+em{
+	color: rgb(205, 196, 255);
+}
+
+ul {
+	list-style-type:square;
+}
+
+ul#innerList {
+	list-style-type : circle;
+}
+a:link {
+	text-decoration: none;
+	color: #ff0000;	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border-radius: 25px;
+
+	background-position: left top;
+	background-repeat: repeat;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	opacity: 0.5;
+  }
+  pre{
+	  background-color: #ff0000;
+	  border-style: dashed;
+	  padding: 50px;
+	  margin: 40px;
+	  
+  }
+  table{
+	  border-style: groove;
+	  padding: 30px;
+	  margin: 20px;
+
+  }
