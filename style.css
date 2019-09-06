@@ -1,7 +1,11 @@
 body {
-	background-color: "lightblue";
+	background-color: "blue";
 }
 
 * {
 	font-family: "Times New Roman", 'Times New Roman', Times, serif;	
+}
+
+h {
+	font-family: "Arial";
 }
